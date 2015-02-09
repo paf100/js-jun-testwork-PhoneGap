@@ -1,0 +1,81 @@
+#taba {
+    text-align: center;
+    width:100%;
+    height: 10%;
+    /*font-size: 3em;*/
+}
+#scroll {
+    overflow: auto;
+    height: 92%;
+    width: 100%;
+    position: fixed;
+}
+.card {
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    padding: 8px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    width: 90%;
+}
+.picture {
+    border: 1px solid black;
+    float: left;
+    margin-right: 10px;
+}
+.price {
+    margin-bottom: 5px;
+    /*font-size: 1em;*/
+}
+.info {
+    /*font-size: 1em;*/
+}
+#detailsInfo {
+    margin-left: 5%;
+    margin-right: 5%;
+    display:none;
+    /*font-size: 2em;*/
+}
+#bigImg {
+    display:block;
+    margin: 0 auto;
+}
+#footer {
+    cursor: pointer;
+    border: 1px solid #6c6c6c;
+    width: 80%;
+    position: relative;
+    bottom: 0;  
+    height: auto;  
+    margin-bottom: 5%;
+    text-align: center;
+    background-color:  #f1f1f1;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.5s ease-in-out;
+    display:none;
+}
+#footer:hover {
+    cursor: pointer;
+    border: 1px solid #6c6c6c;
+    width: 80%;
+    position: relative;
+    bottom: 0;  
+    height: auto;   
+    margin-bottom: 5%;
+    text-align: center;
+    background-color:  #ffffff;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#goBack {
+    position: relative;
+    /*font-size: 2em;*/
+}
